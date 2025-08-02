@@ -1,0 +1,196 @@
+<style>
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+  }
+
+  header {
+    background: linear-gradient(to right, #2f80ed, #56ccf2);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  .get-started {
+    margin-top: 30px;
+  }
+
+  .get-started a {
+    background-color: #ffffff;
+    color: #2f80ed;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .get-started a:hover {
+    background-color: #2f80ed;
+    color: white;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .intro {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .intro h2 {
+    color: #2f80ed;
+    margin-bottom: 10px;
+  }
+
+  .intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .card {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card h3 {
+    margin-bottom: 15px;
+    color: #2f80ed;
+  }
+
+  .card ul {
+    padding-left: 20px;
+  }
+
+  .card ul li {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+  }
+</style>
+
+<body>
+
+  <header>
+    <h1>🩺 Welcome to the Multiple Disease Prediction System</h1>
+    <p>Utilize AI-powered tools to assess risks for Heart Disease, Diabetes, and Breast Cancer</p>
+    <div class="get-started">
+      <a href="http://localhost:8501" class="start-btn">🚀 Get Started</a>
+    </div>
+    
+
+    </div>
+  </header>
+<!-- 
+  <section class="intro">
+    <img src="https://img.freepik.com/free-vector/medical-technology-science-background-vector-blue-design_53876-160988.jpg" alt="Medical AI" class="hero-img">
+
+    <div class="info">
+      <h2>Welcome to Your Health AI Assistant</h2>
+      <p>Empowering users with early insights into three major health risks: <strong>Heart Disease</strong>, <strong>Diabetes</strong>, and <strong>Breast Cancer</strong>.</p>
+      <p>This platform allows you to input basic medical data and get quick predictions powered by machine learning models.</p> -->
+      <!--<a href="http://localh ost:8501" class="start-btn">🚀 Get Started</a> -->
+    <!-- </div> -->
+  <!-- </section> --> 
+
+  <section class="intro" id="start">
+
+  <section>
+    <div class="info">
+      <h2>Welcome to Your Health AI Assistant</h2>
+      <p>Empowering users with early insights into three major health risks: <strong>Heart Disease</strong>, <strong>Diabetes</strong>, and <strong>Breast Cancer</strong>.</p>
+      <p>This platform allows you to input basic medical data and get quick predictions powered by machine learning models.</p>
+      <!-- <a href="http://localhost:8501" class="start-btn">🚀 Get Started</a> -->
+    </div>
+
+  </section>
+
+
+    <h2>🔍 How It Works</h2>
+    <p>
+      This platform uses advanced Machine Learning models trained on real medical datasets to predict the likelihood of three major diseases — Heart Disease, Diabetes, and Breast Cancer.
+      You simply need to enter a few health parameters, and the model will instantly tell you if you're at risk, helping in early detection and prevention.
+    </p>
+
+    <h2>💡 Use Cases</h2>
+    <p>
+      ✅ Useful for early screening at clinics and health camps<br>
+      ✅ Helps patients monitor risk factors at home<br>
+      ✅ Assists healthcare professionals in initial triage decisions<br>
+      ✅ Empowers individuals with health awareness and insights
+    </p>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color:#2f80ed;">🌍 Real-World Disease Statistics in India</h2>
+    <div class="stats-container">
+
+      <div class="card">
+        <h3>💓 Heart Disease</h3>
+        <ul>
+          <li>Accounts for ~27% of all deaths in India. <a href="https://www.who.int/india/health-topics/cardiovascular-diseases" target="_blank">[Source]</a></li>
+          <li>Highest prevalence in the 40-69 age group.</li>
+          <li>Often undetected until late stages.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>🍬 Diabetes</h3>
+        <ul>
+          <li>101 million+ Indians living with diabetes. <a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1944600" target="_blank">[Source]</a></li>
+          <li>~57% of cases remain undiagnosed.</li>
+          <li>Expected to hit 134 million by 2045.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>🎗️ Breast Cancer</h3>
+        <ul>
+          <li>Most common cancer in Indian women. <a href="https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.35188" target="_blank">[Source]</a></li>
+          <li>Early detection boosts survival to 90%+</li>
+          <li>More than 200,000 new cases annually.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Multiple Disease Prediction System. All rights reserved.</p>
+  </footer>
+
+</body>
