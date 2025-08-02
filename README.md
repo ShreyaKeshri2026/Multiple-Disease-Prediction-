@@ -40,7 +40,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/medical-prediction-project.git
+git clone https://github.com/ShreyaKeshri2026/Multiple-Disease-Prediction-/edit/main/README.md
 cd medical-prediction-project
 Install Dependencies
 
